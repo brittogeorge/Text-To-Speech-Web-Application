@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1133.5 402.85a2.24 2.24 0 1 0-4.4 0.84z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M771.79 227.88 a54.5 54.5 0 1 0 109 0 a54.5 54.5 0 1 0 -109 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M191.09 134.06L228.64 134.06L228.64 159.59L191.09 159.59z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1000.7 444.65L1033.73 444.65L1033.73 477.68L1000.7 477.68z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M569.94 383.04L596.69 383.04L596.69 407.47L569.94 407.47z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M271.55 398.57L320.76 398.57L320.76 407.86L271.55 407.86z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M542.94 172.89L588.02 172.89L588.02 227.74L542.94 227.74z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1289.46 6.31L1330.57 6.31L1330.57 47.42L1289.46 47.42z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M-3.37 90.9a37.83 37.83 0 1 0 21.86 72.43z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M553.62 519.85L598.11 519.85L598.11 564.34L553.62 564.34z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M173.66 538.6L198.93 538.6L198.93 579.49L173.66 579.49z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1207.7 134.89 a50.69 50.69 0 1 0 101.38 0 a50.69 50.69 0 1 0 -101.38 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M846.29 16.12L846.82 16.12L846.82 16.65L846.29 16.65z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M208.82 39.4L252.54 39.4L252.54 83.12L208.82 83.12z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M478.4 405.75L531.06 405.75L531.06 459.76L478.4 459.76z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M937.33 56.59 a9.28 9.28 0 1 0 18.56 0 a9.28 9.28 0 1 0 -18.56 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M82.68 7.3L122.1 7.3L122.1 46.72L82.68 46.72z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M577.53 60.06L611.28 60.06L611.28 93.81L577.53 93.81z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1361.04 317.98L1367.78 317.98L1367.78 324.72L1361.04 324.72z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M622.07 34.05L648.57 34.05L648.57 34.47L622.07 34.47z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M723.82 39.58L736.87 39.58L736.87 54.4L723.82 54.4z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1107.81 305.3L1119.4 305.3L1119.4 316.89L1107.81 316.89z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M373.49 59.01L426.39 59.01L426.39 109.06L373.49 109.06z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M605.29 345.71L659.84 345.71L659.84 400.26L605.29 400.26z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M625.94 440.04 a26.16 26.16 0 1 0 52.32 0 a26.16 26.16 0 1 0 -52.32 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M65.99 260.26a39.53 39.53 0 1 0-38.62-68.99z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1196.13 372 a53.04 53.04 0 1 0 106.08 0 a53.04 53.04 0 1 0 -106.08 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1097.5 189.9L1104.88 189.9L1104.88 213.16L1097.5 213.16z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1285.06 276.06L1321.04 276.06L1321.04 285.19L1285.06 285.19z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M105.34 512.69a47.55 47.55 0 1 0 22.29-92.45z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1276.61 161.79L1328.12 161.79L1328.12 186.96L1276.61 186.96z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M84.89 451.25L87.76 451.25L87.76 475.27L84.89 475.27z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1378.71 408.28a55.42 55.42 0 1 0-48.39-99.72z' fill='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+h1{
+    font-size: 50px;
+    color:aliceblue; font-family:sans-serif;
+    text-shadow: 3px 4px 10px rgb(99, 148, 0) ;
+}
+#text2{
+    margin: 50px 0;
+    height: 100px;
+    width: 500px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 6px 10px black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding:10px;
+
+}
+button{
+    background-color:black;
+    color:aliceblue;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    width:150px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 113);
+}
